@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main {
+  height: 600px;
+  background-color: rgb(145, 137, 137);
+  width: 400px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.title {
+  font-size: large;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+.par {
+  font-size: medium;
+}
