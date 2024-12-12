@@ -1,0 +1,34 @@
+.container {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  margin-top: 250px;
+}
+.body {
+  background-color: white;
+}
+.image img {
+  width: 350px;
+}
+.detail {
+  width: 400px;
+}
+.text {
+  padding: 20px;
+}
+.text button {
+  margin-top: 20px;
+}
+.btn {
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: #006eff;
+  border: none;
+}
+.detail {
+  width: 250px;
+  font-size: 18px;
+}
