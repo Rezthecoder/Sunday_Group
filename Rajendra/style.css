@@ -1,0 +1,33 @@
+
+.card{
+    width: 300px;
+    border: 1px solid rgb(164, 155, 155);
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
+    
+}
+img{
+    width: 100%;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+}
+.card-content{
+    padding: 0 20px 20px;
+
+}
+button{
+    background-color: #007bff;
+    color:white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+}
+p{
+    font-size: 17px;
+    line-height: 1.4;
+    
+}
