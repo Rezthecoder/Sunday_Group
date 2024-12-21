@@ -1,0 +1,96 @@
+.logo {
+  width: 120px;
+  height: 60px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-home {
+  background-color: #fcf5e9;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header li {
+  padding: 10px 15px;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.clr {
+  background-color: #fcf5e9;
+  color: black;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.album-item {
+  width: calc(33.333% - 20px);
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.album img {
+  width: 380px;
+  height: 360px;
+  border-radius: 20px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.contact ul {
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.footer h4 {
+  text-align: center;
+  align-items: center;
+}
+
+.about-hero {
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+a {
+  text-decoration: none;
+}
