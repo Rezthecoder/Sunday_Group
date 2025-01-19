@@ -1,0 +1,11 @@
+@media only screen and (max-width:991px) {
+   .title1{
+   justify-self: center;
+   }
+   .flex{
+      margin: 16px 0px 0px 0px !important;
+   }
+}
+@media only screen and (min-width:992px){
+
+}

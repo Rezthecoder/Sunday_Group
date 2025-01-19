@@ -1,0 +1,42 @@
+*{
+    font-family: "Josefin Sans", serif;
+}
+.logo {
+    font-size: 25px;
+}
+
+.menu {
+    font-size: 19px;
+}
+.slogan{
+    font-size: 25px;
+}
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-title{
+    font-size: 30px;
+}
+.aboutmeimage img{
+    height: 300px;
+    width: 300px;
+}
+.para:nth-child(1){
+    font-size: 20px;
+}
+.card:hover{
+    scale: 1.1;
+    box-shadow: 10px 5px 15px #888888;
+    transition: box-shadow 0.4s ease-in-out;
+}
+.card img{
+    height:50px;
+    width:50px;
+}
