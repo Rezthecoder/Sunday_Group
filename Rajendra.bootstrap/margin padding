@@ -65,10 +65,10 @@
     <!-- Margin Auto -->
     <div class="container">
       <div class="text-bg-warning m-auto w-50">Lorem, ipsum dolor.</div>
+      <div class="text-bg-warning mx-auto w-50">Lorem, ipsum dolor.</div>
+      <div class="text-bg-warning my-auto w-50">Lorem, ipsum dolor.</div>
+      <div class="text-bg-warning my-auto w-50">Lorem, ipsum dolor.</div>
       <div class="text-bg-warning w-50">Lorem, ipsum dolor.</div>
-      <div class="text-bg-warning m-md-auto w-50">Lorem, ipsum dolor.</div>
-      <div class="text-bg-warning m-sm-auto w-50">Lorem, ipsum dolor.</div>
-      <div class="text-bg-warning m w-50">Lorem, ipsum dolor.</div>
     </div>
 
     <!-- Padding All -->
