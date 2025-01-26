@@ -5,6 +5,12 @@
    .flex{
       margin: 16px 0px 0px 0px !important;
    }
+   .footer1{
+      text-align: center;
+   }
+   .sec-title{
+      font-size: 20px;
+   }
 }
 @media only screen and (min-width:992px){
 
