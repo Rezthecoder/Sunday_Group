@@ -11,6 +11,10 @@
    .sec-title{
       font-size: 20px;
    }
+   .offers{
+      margin-top: 25px;
+      padding-top: 10px !important;
+   }
 }
 @media only screen and (min-width:992px){
 
