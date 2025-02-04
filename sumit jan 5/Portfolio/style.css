@@ -45,6 +45,8 @@
 }
 .serviceimage{
     box-shadow: 10px 5px 15px #888888;
+    height: 100%;
+    width: 100%;
 }
 .serviceimage:hover{
     position: relative;
