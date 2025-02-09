@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"
+    integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Latest FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Rajendra | Web Developer</title>
+</head>
+
+<body>
+  <header class="header vh-100 text-center position-relative">
+    <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
+      <h5 class="text-primary fs-3 fw-bold text-uppercase">Eat. Sleep. Code. Repeat.</h5>
+      <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
+      <p class="roles text-white text-uppercase fs-5">
+        <span>Full Stack Developer | </span>
+        <span>ソフトウェアエンジニア</span>
+      </p>
+
+      <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+        <div class="d-flex">
+          <div class="me-3">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="text-start">
+            <span>More About Me</span>
+          </div>
+        </div>
+
+      </a>
+      <div class="social d-flex gap-3 position-absolute">
+        <a href="#">
+          <i class="fab fa-tiktok fa-3x text-white"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram fa-3x text-white"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-github fa-3x text-white"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook fa-3x text-white"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-youtube fa-3x text-white"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter fa-3x text-white"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About section -->
+  <section id="about" class="about bg-light py-5">
+    <div class="container">
+      <div class="text-center">
+        <h4 class="text-uppercase fw-bold text-primary">About Me</h4>
+        <hr class="w-25 mx-auto">
+        <h2 class="mb-4">Introduction</h2>
+      </div>
+      <div class="about-content d-flex gap-5 align-items-center h-100">
+        <img src="images/2024-205-3X4-.jpg" alt="" class="about-img img-fluid">
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta cum quidem, soluta fugiat, ipsam
+          expedita iste veniam illo error in officiis, itaque sequi recusandae aliquam. Expedita ad nobis sequi quis.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- profles and skills -->
+  <section class="profile my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-uppercase fw-bold">Profile</h3>
+          <p>Here is some more info about myself to help you get to know me better</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-user text-primary"></i>
+                Full Name:
+              </h5>
+              <p>Rajendra Shrestha</p>
+            </li>
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-calendar text-primary"></i>
+                Birth Date:
+              </h5>
+              <p>Lorem, ipsum.</p>
+            </li>
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-building text-primary"></i>
+                Current Position:
+              </h5>
+              <p>Senior Developer</p>
+            </li>
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-home text-primary"></i>
+                Website:
+              </h5>
+              <p>noobprogrammer.com</p>
+            </li>
+            <li class="list-group-item mb-3">
+              <h5 class="text-transform">
+                <i class="fas fa-envelope text-primary"></i>
+                Email:
+              </h5>
+              <p>rajendrashrestha2017@gmail.com</p>
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-uppercase fw-bold">Skills</h3>
+          <p>Skills and their proficiency percentages</p>
+          <h5><i class="fas fa-check"> HTML 5</i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:100%;">100%</div>
+          </div>
+          <h5><i class="fas fa-check"> CSS </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:90%;">90%</div>
+          </div>
+          <h5><i class="fas fa-check"> JavaScript </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:90%;">90%</div>
+          </div>
+          <h5><i class="fas fa-check"> BootStrap </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:100%;">100%</div>
+          </div>
+          <h5><i class="fas fa-check"> Java </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:80%;">80%</div>
+          </div>
+          <h5><i class="fas fa-check"> Python </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:80%;">80%</div>
+          </div>
+          <h5><i class="fas fa-check"> Git </i></h5>
+          <div class="progress mb-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width:90%;">90%</div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 text-center">
+        <div class="col-12">
+          <a href="cv/resume.jpg" class="lightbox-link btn btn-outline-dark btn-lg px-5 mx-3 my-2"
+            data-lightbox="images" data-title="resume">
+            Resume | CV
+          </a>
+          <a href="cv/resume.jpg" download="resume.jpg" class="btn btn-dark btn-lg px-5 mx-3 my-2">
+            Download
+          </a>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5 ">
+        <h4 class="text-uppercase fw-bold text-primary">Portfolio</h4>
+        <hr class="w-25 mx-auto">
+        <h2 class="mb-4">Explore My Work</h2>
+        <p class="lead">A curated selection of my projects showcasing my skills and creativity.</p>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project1.jpg" data-lightbox="gallery" data-title="Clipboard landing Page"
+                class="lightbox-link">
+                <img src="images/project1.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project2.jpg" data-lightbox="gallery" data-title="Loops studio" class="lightbox-link">
+                <img src="images/project2.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project3.jpg" data-lightbox="gallery" data-title="Shortly" class="lightbox-link">
+                <img src="images/project3.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project4.jpg" data-lightbox="gallery" data-title="flyo" class="lightbox-link">
+                <img src="images/project4.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project5.jpg" data-lightbox="gallery" data-title="Bookmark website" class="lightbox-link">
+                <img src="images/project5.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="images/project6.jpg" data-lightbox="gallery" data-title="Grid layout" class="lightbox-link">
+                <img src="images/project6.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- unique -->
+
+  <section class="styleshout text-bg-dark bg-gradient py-5 text-center ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center ">
+          <h1>What Makes Me Unique?</h1>
+          <hr class="w-25 mx-auto">
+          <p class="lead">
+            I’m not just a developer—I’m a problem solver, a creator, and a lifelong learner.
+            From writing my first line of code to building full-stack applications, I thrive on turning ideas into
+            reality.
+          </p>
+          <p class="lead">
+            I believe in clean code, continuous improvement, and creativity in every project.
+            Whether it's web development, backend logic, or UI/UX design, I love pushing boundaries and learning new
+            things.
+          </p>
+          <a href="https://github.com/" target="_blank" class="btn btn-primary btn-lg text-uppercase px-5 mx-3 my-2">
+            Visit My GitHub
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="services text-bg-dark py-5 position-relative">
+    <div class="container position-relative">
+      <div class="text-center mb-5">
+        <h4 class="text-uppercase fw-bold text-primary">
+          Services
+        </h4>
+        <hr class="w-25 mx-auto">
+        <h2 class="mb-4">What Can I Do For You?</h2>
+        <p class="lead">
+          Here are some of the services that i offer when it comes to web development and business
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-globe fa-3x text-primary"></i>
+          <h3>Web Design</h3>
+          <hr class="w-25 mx-auto">
+          <p class="fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere, qui consequuntur praesentium eveniet
+            sequi nisi minus labore ratione autem?
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-code fa-3x text-primary"></i>
+          <h3>Web Development</h3>
+          <hr class="w-25 mx-auto">
+          <p class="fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere, qui consequuntur praesentium eveniet
+            sequi nisi minus labore ratione autem?
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-robot fa-3x text-primary"></i>
+          <h3>App Development</h3>
+          <hr class="w-25 mx-auto">
+          <p class="fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere, qui consequuntur praesentium eveniet
+            sequi nisi minus labore ratione autem?
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- stats -->
+  <section class="stats py-5 bg-secondary">
+    <div class="container">
+      <div class="row g-0">
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fas fa-users fa-3x mb-3"></i>
+            <p class="fs-1">100+</p>
+            <h3 class="fs-6 text-uppercase">Clients</h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fas fa-clock fa-3x mb-3"></i>
+            <p class="fs-1">10+</p>
+            <h3 class="fs-6 text-uppercase">Years</h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fas fa-diagram-project fa-3x mb-3"></i>
+            <p class="fs-1">300+</p>
+            <h3 class="fs-6 text-uppercase">Projects</h3>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fab fa-youtube fa-3x mb-3"></i>
+            <p class="fs-1">1M</p>
+            <h3 class="fs-6 text-uppercase">Subscribers</h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fab fa-tiktok fa-3x mb-3"></i>
+            <p class="fs-1">2M</p>
+            <h3 class="fs-6 text-uppercase">Followers</h3>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-2">
+          <div class="stat text-center border-end border-dark">
+            <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+            <p class="fs-1">10K+</p>
+            <h3 class="fs-6 text-uppercase">Students</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="contact text-bg-dark bg-gradient py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <div class="text-center mb-5">
+            <h4 class="text-uppercase fw-bold text-primary">Contact</h4>
+            <hr class="w25 mx-auto">
+            <h2 class="mb-4">Love to hear from you</h2>
+            <p class="lead">
+              If you have any questions or would like to work together,
+              please contact me with the form below.
+            </p>
+          </div>
+        </div>
+        <!-- form -->
+        <form class="form" name="contact" netlify>
+          <div class="mb-5">
+            <input type="text" name="name" class="form-control bg-transparent border-top-0 border-start-0
+          border-end-0 rounded-0 border-muted text-white" placeholder="Name">
+          </div>
+          <div class="mb-5">
+            <input type="email" name="email" class="form-control bg-transparent border-top-0 border-start-0
+          border-end-0 rounded-0 border-muted text-white" placeholder="Email">
+          </div>
+          <div class="mb-5">
+            <textarea type="text" name="message" class="form-control bg-transparent border-top-0 border-start-0
+          border-end-0 rounded-0 border-muted text-white" placeholder="Message"></textarea>
+          </div>
+          <div class="mb-5 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+      <!-- footer -->
+      <div class="d-flex mt-5">
+        <p class="flex-grow-1">Copyright &copy; 2025 | Design by Rez</p>
+        <div class="hstack gap-3">
+          <a href="#">
+            <i class="fab fa-tiktok fa-2x text-white"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-facebook fa-2x text-white"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-youtube fa-2x text-white"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-instagram fa-2x text-white"></i>
+
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+    integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

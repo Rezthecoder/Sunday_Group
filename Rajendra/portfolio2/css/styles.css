@@ -1,0 +1,224 @@
+/* Font */
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+
+    /* Colors */
+    --bs-primary: #cc005f;
+    --bs-secondary: #990047;
+    --bs-dark: #000;
+    --bs-light: #f4f4f4;
+
+    /* Buttons */
+    --bs-border-radius: 0;
+    --bs-border-radius-sm: 0;
+    --bs-border-radius-lg: 0;
+    --bs-btn-padding-y: 12px;
+    --bs-btn-padding-y-lg: 12px;
+    --bs-btn-padding-y-sm: 12px;
+    --bs-btn-padding-x: 30px;
+    --bs-btn-padding-x-lg: 30px;
+    --bs-btn-padding-x-sm: 30px;
+
+    /* Navbar */
+    --bs-navbar-toggler-border-radius: 5px;
+
+    /* Spacing */
+    --bs-spacer: 1rem;
+}
+
+/* Optional: Override Bootstrap button styles */
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-secondary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+}
+
+/* Apply to elements */
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+    color: var(--bs-secondary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--bs-secondary) !important;
+    color: white;
+}
+
+.text-dark {
+    color: var(--bs-dark) !important;
+}
+
+.bg-dark {
+    background-color: var(--bs-dark) !important;
+}
+
+.text-light {
+    color: var(--bs-light) !important;
+}
+
+.bg-light {
+    background-color: var(--bs-light) !important;
+}
+
+
+/* Container max widths */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+
+
+
+.header {
+    background: #151515 url("../images/intro-bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.text-container {
+    z-index: 1;
+}
+
+.header .social {
+    bottom: 50px;
+}
+
+.header .roles {
+    font-family: 'lora-regular', serif;
+}
+
+
+.about-img {
+    width: 150px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+    /* Smooth transition for both filter and scale */
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+    /* Correct scale property */
+    filter: grayscale(0%);
+}
+
+.profile {
+    margin-top: 3rem;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+    opacity: .8;
+}
+
+
+.services {
+    background: url(../images/bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+.services .container {
+    z-index: 1;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.form textarea::placeholder {
+    color: white;
+}
+
+.form input:focus {
+    color: var(--bs-primary);
+    box-shadow: 0 0 8px var(--bs-primary);
+    border-bottom: none;
+}
+
+.form textarea:focus {
+    color: var(--bs-primary);
+    box-shadow: 0 0 8px var(--bs-primary);
+    border-bottom: none;
+}
+
+@media (max-width:767px) {
+    .header .social {
+        font-size: 12px !important;
+    }
+
+    .header .roles {
+        font-size: 18px !important;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .stats .stat {
+        border-right: 0 !important;
+        border-bottom: #151515 1px solid;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+}
