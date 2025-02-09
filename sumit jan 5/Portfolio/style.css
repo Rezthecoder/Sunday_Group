@@ -43,40 +43,16 @@
 .sec-title{
     font-size: 30px;
 }
-.serviceimage{
+.serviceimage img{ 
     box-shadow: 10px 5px 15px #888888;
     height: 100%;
     width: 100%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.boxshadow img{
-    width: 400px;
-    height: 400px;
-}
-.box-shadow:hover{
-    scale: 1.1;
-    box-shadow: 10px 5px 15px #888888;
-    transition: box-shadow 0.4s ease-in-out; 
-    z-index: 1;
-}
-=======
 
-.box-shadow img:hover{
-    scale: 1.1;
-    box-shadow: 10px 5px 15px #888888;
-    transition: all 0.4s ease-in-out; 
-}
-.serviceimage{
-    margin: 10px;
-}
->>>>>>> Sumit-Adhikari
-=======
-.serviceimage:hover{
+.serviceimage img:hover{
     position: relative;
     z-index: 1;
     scale: 1.2;
     box-shadow: 10px 5px 15px #888888;
     transition: all 0.4s ease-in-out; 
 }
->>>>>>> Sumit-Adhikari
