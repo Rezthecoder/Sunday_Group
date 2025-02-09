@@ -1,0 +1,146 @@
+/* @media screen and (max-width:800px){
+    .box{
+        height: 630px;
+    }
+    .box2{
+        flex-direction: column;
+        height: 1010px;
+    }
+    section .contianer1 {
+        flex-direction: column;
+    }
+    .row15{
+        grid-template-columns: auto;
+    }
+    .github{
+        height: 730px;
+    }
+    .row4 {
+        height: 960px;
+        flex-direction: column;
+
+    }
+    .services {
+        height: auto;
+    }
+    .container9{
+        height: 1250px;
+        flex-direction: column;
+    }
+    .Subscribers{
+        height: auto;
+    }
+    .contact{
+        height: 745px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row1{
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+    .skill-bar{
+    width: 80vw;
+     }
+    
+    .grid img{
+        height: 270px;
+        width: 300px;
+        padding: 20px; 
+        text-align: center;
+    }
+    .secondlastp{
+        width: 80vw;
+
+    }
+    .row5 p{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .box p{
+        
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+
+    }
+    .logo5{
+        border-right: none;
+    }
+
+} */
+    
+
+
+
+
+@media (min-width: 200px) and (max-width:800px) {
+.box{
+        height: 630px;
+    }
+    .box2{
+        flex-direction: column;
+        height: 810px;
+    }
+    section .contianer1 {
+        flex-direction: column;
+    }
+    .row15{
+        grid-template-columns: auto;
+    }
+    .row4 {
+        
+        flex-direction: column;
+    }
+    
+    .container9{
+        height: 1250px;
+        flex-direction: column;
+    }
+    .Subscribers{
+        height: auto;
+    }
+    
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row1{
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+     .skill-bar{
+       width: 80vw;
+     }
+    
+    .grid img{
+        height: 270px;
+        width: 300px;
+        padding: 20px; 
+        text-align: center;
+    }
+    .secondlastp{
+        width: 80vw;
+
+    }
+    .row5 p{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .box p{
+        
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+
+    }
+    .logo5{
+        border-right: none;
+    }
+}
