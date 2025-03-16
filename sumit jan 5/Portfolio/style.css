@@ -10,6 +10,10 @@
     font-size: 19px;
 }
 
+.nav-item a:hover{
+    scale: 1.1;
+    }
+
 .slogan {
     font-size: 25px;
 }
